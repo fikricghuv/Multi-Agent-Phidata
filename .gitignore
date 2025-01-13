@@ -5,4 +5,5 @@ __pycache__/
 .vscode/
 .idea/
 .git/
-venv
+app/venv/
+app/__pycache__/

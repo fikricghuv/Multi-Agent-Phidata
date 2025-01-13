@@ -3,12 +3,16 @@ from phi.vectordb.pineconedb import PineconeDB
 from pinecone.grpc import PineconeGRPC as Pinecone
 from phi.knowledge.pdf import PDFKnowledgeBase, PDFReader
 from phi.knowledge.json import JSONKnowledgeBase
+from app.config.settings import load_environment_variables
+
+env_var = load_environment_variables()
+PINECONE_API_KEY = env_var("PINECONE_API_KEY")
+
 
 model_embedd_openai = OpenAIEmbedder(model="text-embedding-3-small")
 
 # Initialize a Pinecone client with your API key
-pc = Pinecone(api_key="pcsk_5stbCS_gLGYTCEU1FyVrrRATX5HMPKBWTyN7bAxyiQbyLUzRb2q2LaUZDjd74q8oYhWVr")
-api_key="pcsk_5stbCS_gLGYTCEU1FyVrrRATX5HMPKBWTyN7bAxyiQbyLUzRb2q2LaUZDjd74q8oYhWVr"
+api_key=PINECONE_API_KEY
 
 # Gantilah PineconeDB untuk penggunaan vektor di database Pinecone
 class KnowledgeBaseRepository:

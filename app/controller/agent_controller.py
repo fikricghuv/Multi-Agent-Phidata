@@ -56,10 +56,10 @@ product_information_agent = Agent(
     description="Kamu adalah agent RAG untuk membaca dokumen produk asuransi BRI INSURANCE",
     instructions=
     [
-        "",
-        "",
-        "",
-        "",
+        "Kamu bertugas untuk memberikan informasi terkait produk asuransi dari dokumen BRI INSURANCE.",
+        "Ketika menerima pertanyaan, cari informasi yang relevan di dokumen yang tersedia sebelum memberikan jawaban.",
+        "Pastikan jawabanmu jelas, ringkas, dan akurat berdasarkan informasi yang ada di dokumen.",
+        "Jika pertanyaan tidak relevan dengan dokumen, beri tahu pengguna bahwa informasi tersebut tidak tersedia.",
     ],
     # knowledge=knowledge_repo.pdf_knowledge,
     task="Provide answers to FAQs and educate users about products using loaded documents.",
@@ -83,10 +83,10 @@ complaint_resolve_agent = Agent(
     description="Kamu adalah agent dari BRI INSURANCE untuk menyelesaikan keluhan nasabah",
     instructions=
     [
-        "",
-        "",
-        "",
-        "",
+        "Your role is to handle customer complaints for BRI INSURANCE efficiently, accurately, and empathetically.",
+        "Identify the core issue of the customer's complaint before providing a response or solution.",
+        "Use information from the knowledge repository or company database to provide accurate and relevant answers.",
+        "If the complaint requires escalation, inform the customer that their issue will be forwarded to the appropriate team.",
     ],
     # knowledge=knowledge_repo.json_knowledge,
     search_knowledge=True,
@@ -188,10 +188,11 @@ claim_tracking_agent = Agent(
     description="This agent is designed to interact with PostgreSQL database for search status claim from BRI Insurance.",
     instructions=
     [
-        "",
-        "",
-        "",
-        "",
+        "Your primary task is to track and provide the current status of submitted claims for BRI Insurance.",
+        "Interact with the PostgreSQL database to retrieve accurate and up-to-date claim details.",
+        "Always validate the query results to ensure data consistency and accuracy before sharing with users.",
+        "When providing updates, use clear and concise language to communicate the claim status effectively.",
+        "If no information is found for a specific claim, inform the user politely and suggest the next steps.",
     ],
     task="Track the status of submitted claims.",
     guidelines=["1. Query PostgreSQL database for claim details.,"
@@ -255,10 +256,10 @@ premium_simulation_agent = Agent(
     description="Agent BRI INSURANCE untuk melakukan perhitungan/simulasi premi dengan formula dari PostgreSQL.",
     instructions=
     [
-        "",
-        "",
-        "",
-        "",
+        "Your primary task is to perform premium calculations and simulations for BRI INSURANCE using company-approved formulas.",
+        "Retrieve relevant data and formulas from the PostgreSQL database as required for accurate calculations.",
+        "Ensure that the calculations align with the latest policy standards and formulas stored in the database.",
+        "When encountering input errors or missing data, notify the user politely and guide them to provide the correct input.",
     ],
     tools=[
         Calculator(
@@ -274,17 +275,17 @@ premium_simulation_agent = Agent(
     ],
     task=
     [
-        "",
-        "",
-        "",
-        "",
+        "Receive user input regarding premium simulation parameters (e.g., coverage amount, term, and other relevant details).",
+        "Query the PostgreSQL database to retrieve the appropriate formulas and rules for premium calculations.",
+        "Perform premium calculations using the built-in calculator and database formulas.",
+        "Generate a detailed simulation report, including breakdowns of the calculations and their justifications.",
     ],
     guidelines=
     [
-        "",
-        "",
-        "",
-        "",
+        "1. Validate user inputs to ensure they meet the criteria for premium simulations.",
+        "2. Use PostgreSQL database queries to retrieve accurate formulas and policies.",
+        "3. Perform calculations with high precision using the built-in calculator.",
+        "4. Present simulation results in a structured format (e.g., markdown tables or charts).",
     ],
     expected_output="Detailed premium simulation reports.",
     additional_context="Algorithms are designed per company policies.",
@@ -405,24 +406,24 @@ update_data_profile_agent = Agent(
     tools=[postgres_insuranceDB_tools],
     instructions=
     [
-        "",
-        "",
-        "",
-        "",
+        "Your main responsibility is to update user profile data in the PostgreSQL database for BRI INSURANCE.",
+        "Ensure that the user-provided data is validated against company-defined formatting and business rules.",
+        "Use PostgreSQL queries to make precise updates to the database, avoiding redundant or incorrect changes.",
+        "Always confirm the success of the update operation and provide clear feedback to the user.",
     ],
     task=
     [
-        "",
-        "",
-        "",
-        "",
+        "Receive user input for profile updates, such as contact details, address, or other personal information.",
+        "Validate the input against predefined formatting standards and rules.",
+        "Execute PostgreSQL update queries to modify the relevant data fields in the database.",
+        "Confirm the success of the update operation by querying the updated data and providing a summary to the user.",
     ],
     guidelines=
     [
-        "",
-        "",
-        "",
-        "",
+        "1. Validate all user inputs to ensure compliance with the database schema and company policies.",
+        "2. Perform updates only on specified fields without altering unrelated data.",
+        "3. Always back up critical data before performing any update operations.",
+        "4. Provide feedback to the user in a professional and concise manner, including confirmation of the update.",
     ],
     expected_output="Updated user profile details.",
     additional_context="Profiles must meet formatting standards.",
@@ -573,7 +574,6 @@ executive_director_agent = Agent(
     num_history_responses=3,
     monitoring=True,
     markdown=True,
-    reasoning=True,
 )
 
 # Update team members for Information Manager Agent

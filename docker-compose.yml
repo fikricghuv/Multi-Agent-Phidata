@@ -1,0 +1,37 @@
+services:
+  app:
+    build:
+      context: .
+    container_name: Multi-Agent-Brins
+    ports:
+      - "8003:8003"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8003
+    depends_on:
+      - db  # Menunggu layanan db (PostgreSQL) siap sebelum aplikasi berjalan
+    networks:
+      - shared_network
+
+  db:
+    image: postgres:17  # Menggunakan image PostgreSQL
+    container_name: postgres-multi-agent-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: AgenticAI
+      POSTGRES_DB: ai_agent_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data  # Menyimpan data PostgreSQL ke volume terpisah
+    networks:
+      - shared_network
+
+volumes:
+  postgres_data:  # Definisikan volume untuk data PostgreSQL
+
+networks:
+  shared_network:
+    external: true

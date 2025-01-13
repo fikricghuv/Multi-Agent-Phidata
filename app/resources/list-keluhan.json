@@ -1,0 +1,153 @@
+[
+    {
+      "question": "Apa yang harus saya lakukan jika klaim saya ditolak?",
+      "answer": "Jika klaim Anda ditolak, Anda bisa mengajukan banding dengan memberikan bukti tambahan atau menjelaskan alasan yang lebih mendalam sesuai dengan ketentuan polis.",
+      "category": "Klaim Ditolak"
+    },
+    {
+      "question": "Bagaimana cara mengajukan klaim asuransi?",
+      "answer": "Untuk mengajukan klaim asuransi, Anda perlu mengisi formulir klaim yang disediakan oleh perusahaan asuransi dan melampirkan dokumen yang relevan seperti kuitansi atau laporan medis.",
+      "category": "Proses Klaim"
+    },
+    {
+      "question": "Apa yang dimaksud dengan masa tunggu pada polis asuransi?",
+      "answer": "Masa tunggu adalah periode waktu setelah polis aktif di mana klaim tertentu belum dapat diajukan, seperti klaim untuk penyakit tertentu atau perawatan tertentu.",
+      "category": "Masa Tunggu"
+    },
+    {
+      "question": "Apakah ada batasan dalam klaim rawat inap?",
+      "answer": "Batasan klaim rawat inap dapat bervariasi tergantung pada polis yang dipilih, termasuk jumlah hari rawat inap yang ditanggung serta jenis perawatan yang dapat diklaim.",
+      "category": "Klaim Rawat Inap"
+    },
+    {
+      "question": "Bagaimana cara mengganti penerima manfaat polis?",
+      "answer": "Untuk mengganti penerima manfaat polis, Anda harus mengajukan permohonan secara tertulis kepada perusahaan asuransi dan mengikuti prosedur yang ditentukan.",
+      "category": "Penerima Manfaat"
+    },
+    {
+      "question": "Apakah asuransi saya mencakup penyakit kritis?",
+      "answer": "Asuransi kesehatan dapat mencakup penyakit kritis tergantung pada jenis polis yang Anda pilih. Pastikan untuk memeriksa detail polis untuk mengetahui apakah penyakit kritis termasuk dalam cakupan.",
+      "category": "Penyakit Kritis"
+    },
+    {
+      "question": "Bagaimana cara memeriksa status klaim saya?",
+      "answer": "Anda bisa memeriksa status klaim Anda dengan menghubungi layanan pelanggan perusahaan asuransi atau melalui portal klaim online jika tersedia.",
+      "category": "Status Klaim"
+    },
+    {
+      "question": "Apakah saya dapat membatalkan polis asuransi setelah membelinya?",
+      "answer": "Anda bisa membatalkan polis asuransi sesuai dengan ketentuan yang tercantum dalam polis tersebut, biasanya dalam periode tertentu setelah pembelian, dengan pengembalian premi yang disesuaikan.",
+      "category": "Pembatalan Polis"
+    },
+    {
+      "question": "Apa yang terjadi jika saya tidak membayar premi asuransi tepat waktu?",
+      "answer": "Jika Anda tidak membayar premi tepat waktu, polis Anda bisa mengalami penundaan atau pembatalan. Pastikan untuk membayar premi sesuai dengan jadwal untuk menjaga polis tetap aktif.",
+      "category": "Pembayaran Premi"
+    },
+    {
+      "question": "Bagaimana jika saya ingin mengubah detail kontak pada polis saya?",
+      "answer": "Untuk mengubah detail kontak, Anda dapat menghubungi layanan pelanggan atau memperbarui informasi Anda melalui portal online perusahaan asuransi.",
+      "category": "Perubahan Kontak"
+    },
+    {
+      "question": "Apakah asuransi saya menanggung biaya pengobatan luar negeri?",
+      "answer": "Beberapa polis asuransi dapat mencakup biaya pengobatan di luar negeri, namun hal ini tergantung pada jenis dan syarat polis yang Anda pilih. Periksa polis Anda untuk informasi lebih lanjut.",
+      "category": "Biaya Pengobatan Luar Negeri"
+    },
+    {
+      "question": "Berapa lama proses klaim asuransi biasanya berlangsung?",
+      "answer": "Proses klaim asuransi bisa memakan waktu antara beberapa hari hingga beberapa minggu, tergantung pada kompleksitas klaim dan kelengkapan dokumen yang diajukan.",
+      "category": "Waktu Proses Klaim"
+    },
+    {
+      "question": "Apakah asuransi saya mencakup kecelakaan yang terjadi di luar negeri?",
+      "answer": "Beberapa polis asuransi jiwa atau kecelakaan bisa mencakup kecelakaan yang terjadi di luar negeri, tetapi Anda perlu memeriksa syarat dan ketentuan dalam polis untuk memastikan.",
+      "category": "Cakupan Kecelakaan Luar Negeri"
+    },
+    {
+      "question": "Apa yang dimaksud dengan deductible pada polis asuransi?",
+      "answer": "Deductible adalah jumlah biaya yang harus Anda bayar terlebih dahulu sebelum asuransi mulai menanggung biaya klaim Anda.",
+      "category": "Deductible"
+    },
+    {
+      "question": "Bagaimana cara memperbarui polis asuransi saya?",
+      "answer": "Untuk memperbarui polis asuransi, Anda dapat menghubungi agen atau perusahaan asuransi dan meminta pembaruan sesuai dengan perubahan kebutuhan Anda.",
+      "category": "Pembaruan Polis"
+    },
+    {
+      "question": "Apakah asuransi saya mencakup biaya rumah sakit untuk rawat jalan?",
+      "answer": "Tergantung pada jenis polis, beberapa asuransi kesehatan mencakup biaya rawat jalan, namun Anda perlu memeriksa ketentuan polis untuk memastikan.",
+      "category": "Rawat Jalan"
+    },
+    {
+      "question": "Apakah saya bisa menambah manfaat pada polis asuransi saya?",
+      "answer": "Anda bisa menambah manfaat pada polis asuransi dengan melakukan rider atau tambahan manfaat yang disesuaikan dengan kebutuhan Anda, sesuai dengan kebijakan perusahaan asuransi.",
+      "category": "Penambahan Manfaat"
+    },
+    {
+      "question": "Apakah asuransi saya melindungi saya terhadap kerugian akibat bencana alam?",
+      "answer": "Bergantung pada polis yang dipilih, beberapa polis dapat mencakup kerugian akibat bencana alam, namun Anda perlu memastikan melalui syarat dan ketentuan polis.",
+      "category": "Bencana Alam"
+    },
+    {
+      "question": "Bagaimana cara mengajukan klaim untuk kerugian akibat kebakaran?",
+      "answer": "Untuk mengajukan klaim kerugian akibat kebakaran, Anda perlu melaporkan kejadian tersebut segera kepada perusahaan asuransi dan melampirkan bukti yang diperlukan, seperti laporan kebakaran dari pihak berwenang.",
+      "category": "Kebakaran"
+    },
+    {
+      "question": "Apakah saya bisa mencairkan manfaat polis asuransi jiwa saya lebih awal?",
+      "answer": "Beberapa polis asuransi jiwa memungkinkan pencairan lebih awal jika memenuhi kondisi tertentu seperti keadaan darurat medis, namun ada ketentuan dan biaya yang terkait.",
+      "category": "Pencairan Dini"
+    },
+    {
+      "question": "Bagaimana cara mengganti pemegang polis?",
+      "answer": "Untuk mengganti pemegang polis, Anda harus mengajukan permohonan kepada perusahaan asuransi dengan melengkapi dokumen yang diperlukan dan mengikuti prosedur yang berlaku.",
+      "category": "Pemegang Polis"
+    },
+    {
+      "question": "Apa yang harus dilakukan jika saya tidak setuju dengan keputusan klaim?",
+      "answer": "Jika Anda tidak setuju dengan keputusan klaim, Anda dapat mengajukan banding dengan memberikan alasan atau bukti tambahan untuk mendukung klaim Anda.",
+      "category": "Banding Klaim"
+    },
+    {
+      "question": "Apakah polis saya mencakup pengobatan untuk penyakit jangka panjang?",
+      "answer": "Beberapa polis asuransi kesehatan mencakup pengobatan penyakit jangka panjang, namun tergantung pada jenis polis, Anda perlu memeriksa ketentuan tersebut.",
+      "category": "Penyakit Jangka Panjang"
+    },
+    {
+      "question": "Bagaimana cara menambahkan anggota keluarga pada polis asuransi?",
+      "answer": "Anda dapat menambahkan anggota keluarga pada polis asuransi dengan menghubungi perusahaan asuransi dan memberikan informasi yang diperlukan untuk memperbarui polis.",
+      "category": "Menambahkan Anggota Keluarga"
+    },
+    {
+      "question": "Apakah saya bisa mengubah jenis pertanggungan dalam polis saya?",
+      "answer": "Ya, Anda bisa mengubah jenis pertanggungan sesuai dengan kebutuhan Anda dengan menghubungi perusahaan asuransi dan meminta perubahan polis.",
+      "category": "Perubahan Pertanggungan"
+    },
+    {
+      "question": "Apa saja yang harus disiapkan saat mengajukan klaim asuransi jiwa?",
+      "answer": "Saat mengajukan klaim asuransi jiwa, Anda perlu menyiapkan dokumen seperti akta kematian, identitas diri, dan bukti pembayaran premi terbaru.",
+      "category": "Klaim Asuransi Jiwa"
+    },
+    {
+      "question": "Bagaimana cara mempercepat proses klaim asuransi saya?",
+      "answer": "Untuk mempercepat proses klaim, pastikan semua dokumen yang diperlukan lengkap dan benar, serta ajukan klaim sesegera mungkin setelah kejadian.",
+      "category": "Percepatan Proses Klaim"
+    },
+    {
+      "question": "Apakah saya bisa mendapatkan pengembalian premi jika saya membatalkan polis?",
+      "answer": "Tergantung pada ketentuan polis, Anda mungkin mendapatkan pengembalian premi sesuai dengan jangka waktu polis dan biaya administrasi yang berlaku.",
+      "category": "Pengembalian Premi"
+    },
+    {
+      "question": "Apa yang terjadi jika saya melewatkan batas waktu pengajuan klaim?",
+      "answer": "Jika Anda melewatkan batas waktu pengajuan klaim, klaim Anda bisa ditolak. Pastikan untuk mengajukan klaim sebelum batas waktu yang ditentukan.",
+      "category": "Batas Waktu Klaim"
+    },
+    {
+      "question": "Apakah ada biaya administrasi saat mengajukan klaim?",
+      "answer": "Beberapa perusahaan asuransi mungkin mengenakan biaya administrasi untuk proses klaim, tergantung pada jenis klaim yang diajukan dan ketentuan polis.",
+      "category": "Biaya Administrasi"
+    }
+  ]
+  
